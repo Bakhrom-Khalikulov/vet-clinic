@@ -310,7 +310,36 @@ template {
   display: none;
 }
 
-/* FONTS */ /* GENERAL */
+/* FONTS */
+@font-face {
+  font-family: "Futura Cyrillic";
+  src: url("../fonts/FuturaCyrillic-Bold.woff2") format("woff2"), url("../fonts/FuturaCyrillic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Cyrillic Demi";
+  src: url("../fonts/FuturaCyrillic-Demi.woff2") format("woff2"), url("../fonts/FuturaCyrillic-Demi.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Cyrillic Book";
+  src: url("../fonts/FuturaCyrillicBook.woff2") format("woff2"), url("../fonts/FuturaCyrillicBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Futura Cyrillic";
+  src: url("../fonts/FuturaCyrillicMedium.woff2") format("woff2"), url("../fonts/FuturaCyrillicMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* GENERAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -330,8 +359,12 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: "Futura Cyrillic", "Arial", sans-serif;
+  font-weight: 500;
   background-color: #fff;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -354,9 +387,118 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-}/*# sourceMappingURL=main.css.map */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------- HEADER STYLES START --------*/
+.site-header__start {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  background-color: #F9F8F8;
+}
+.site-header__start--wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1117px;
+  align-items: center;
+  margin-left: auto;
+}
+.site-header__start--address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 18px;
+  color: #333;
+}
+.site-header__start--address::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../../images/icons/home.svg);
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+}
+.site-header__start--contacts-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.site-header__start--contacts-list::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../../images/icons/phone.svg);
+  width: 13px;
+  height: 13px;
+  margin-top: 4px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.site-header__start--contacts-item:nth-child(1)::after {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  margin-top: 0;
+  margin-right: 9px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+}
+.site-header__start--contacts-item:nth-child(2)::after {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  margin-top: 0;
+  margin-right: 9px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+}
+.site-header__start--contacts-link {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+}
+.site-header__start--schedule {
+  display: flex;
+}
+.site-header__start--schedule::before {
+  display: inline-block;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url(../../images/icons/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-right: 7px;
+  margin-top: 3px;
+}
+.site-header__start--schedule-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+}
+.site-header__start--schedule-text:nth-child(1) {
+  margin-right: 17px;
+}
+.site-header__start--schedule-text-week {
+  font-weight: 600;
+}
+
+/*-------- HEADER STYLES END --------*//*# sourceMappingURL=main.css.map */
