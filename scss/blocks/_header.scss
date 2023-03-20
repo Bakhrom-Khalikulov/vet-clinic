@@ -118,6 +118,67 @@
     &__start--schedule-text-week{
         font-weight: 600;
     } 
+
+    &__end{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        background-color: $header-end-color;
+    }
+    
+    &__end--wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__end--link-logo{
+        top: 21px;
+        position: fixed;
+     
+     
+    }
+    
+    &__nav--list{
+        display: flex;
+        @include list-unstyled;
+        
+    }
+    
+    &__nav--item{
+        &:not(:last-child){
+            margin-right: 55px;
+        }
+
+    }
+    
+    &__nav--link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-decoration: none;
+        color: $main-text-color;
+    }
+
+    &__end--link-question{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-decoration: none;
+        color: $main-text-color;
+
+        &::before{
+            display: inline-block;
+            content: "";
+            width: 28px;
+            height: 25px;
+            margin-right: 5px;
+            background-image: url(../../images/icons/panja.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
 }
 
 

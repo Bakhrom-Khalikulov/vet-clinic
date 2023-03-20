@@ -500,5 +500,55 @@ img {
 .site-header__start--schedule-text-week {
   font-weight: 600;
 }
+.site-header__end {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.site-header__end--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__end--link-logo {
+  top: 21px;
+  position: fixed;
+}
+.site-header__nav--list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.site-header__nav--item:not(:last-child) {
+  margin-right: 55px;
+}
+.site-header__nav--link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333;
+}
+.site-header__end--link-question {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333;
+}
+.site-header__end--link-question::before {
+  display: inline-block;
+  content: "";
+  width: 28px;
+  height: 25px;
+  margin-right: 5px;
+  background-image: url(../../images/icons/panja.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 /*-------- HEADER STYLES END --------*//*# sourceMappingURL=main.css.map */
