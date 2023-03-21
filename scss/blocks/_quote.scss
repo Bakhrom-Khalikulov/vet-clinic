@@ -1,0 +1,93 @@
+/*-------- QUOTE STYLES START --------*/ 
+.quote-section{
+    margin-top: 0;
+    padding-bottom: 191px;
+    background-color: $header-start-color;
+    
+    
+    &__wrapper{
+        position: relative;
+        width: 753px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        
+    }
+    
+    &__wrapper-text{
+        margin-top: 0;
+        margin-bottom: 70px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #949494;
+        &::before{
+            margin-right: auto;
+            margin-bottom: 43px;
+            margin-left: auto;
+            display: block;
+            content: "";
+            width: 140px;
+            border: 1px solid #DBDBDB;   
+        }
+        
+        &::after{
+            margin-right: auto;
+            margin-top: 35px;
+            margin-left: auto;
+            display: block;
+            content: "";
+            width: 140px;
+            border: 1px solid #DBDBDB;   
+        }
+        
+    }
+    
+    &__wrapper-desc{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: $main-text-color;        
+    }
+    
+    &__wrapper-mark{
+        position: absolute;
+        top: -238px;
+        left: -140px;
+        font-family: 'Gaegu';
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 250px;
+        color: #DBDBDB;
+    }
+
+    &__wrapper-mark1{
+        position: absolute;
+        top: -263px;
+        left: 810px;
+        font-family: 'Gaegu';
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 250px;
+        color: #DBDBDB;
+        transform: rotate(-180deg);
+
+
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+/*-------- QUOTE STYLES END --------*/ 

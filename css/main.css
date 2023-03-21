@@ -554,8 +554,9 @@ img {
 /*-------- HEADER STYLES END --------*/
 /*-------- HEADER STYLES START --------*/
 .hero-section {
-  margin-top: 153px;
-  margin-bottom: 311px;
+  padding-top: 153px;
+  padding-bottom: 311px;
+  background-color: #F9F8F8;
 }
 .hero-section__wrapper {
   width: 608px;
@@ -593,4 +594,77 @@ img {
   border-radius: 3px;
 }
 
-/*-------- HEADER STYLES END --------*//*# sourceMappingURL=main.css.map */
+/*-------- HEADER STYLES END --------*/
+/*-------- QUOTE STYLES START --------*/
+.quote-section {
+  margin-top: 0;
+  padding-bottom: 191px;
+  background-color: #F9F8F8;
+}
+.quote-section__wrapper {
+  position: relative;
+  width: 753px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.quote-section__wrapper-text {
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+}
+.quote-section__wrapper-text::before {
+  margin-right: auto;
+  margin-bottom: 43px;
+  margin-left: auto;
+  display: block;
+  content: "";
+  width: 140px;
+  border: 1px solid #DBDBDB;
+}
+.quote-section__wrapper-text::after {
+  margin-right: auto;
+  margin-top: 35px;
+  margin-left: auto;
+  display: block;
+  content: "";
+  width: 140px;
+  border: 1px solid #DBDBDB;
+}
+.quote-section__wrapper-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+}
+.quote-section__wrapper-mark {
+  position: absolute;
+  top: -238px;
+  left: -140px;
+  font-family: "Gaegu";
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 250px;
+  color: #DBDBDB;
+}
+.quote-section__wrapper-mark1 {
+  position: absolute;
+  top: -263px;
+  left: 810px;
+  font-family: "Gaegu";
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 250px;
+  color: #DBDBDB;
+  transform: rotate(-180deg);
+}
+
+/*-------- QUOTE STYLES END --------*//*# sourceMappingURL=main.css.map */

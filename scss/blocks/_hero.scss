@@ -1,7 +1,8 @@
 /*-------- HEADER STYLES START --------*/ 
 .hero-section{
-    margin-top: 153px;
-    margin-bottom: 311px;
+    padding-top: 153px;
+    padding-bottom: 311px;
+    background-color: $header-start-color;
     
     &__wrapper{
         width: 608px;
