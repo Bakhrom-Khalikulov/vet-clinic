@@ -1,0 +1,52 @@
+/*-------- HEADER STYLES START --------*/ 
+.hero-section{
+    margin-top: 153px;
+    margin-bottom: 311px;
+    
+    &__wrapper{
+        width: 608px;
+        margin-left: auto;
+    }
+    
+    &__wrapper--end-title{
+        margin-top: 0;
+        margin-bottom: 29px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 64px;
+        color: $main-text-color;
+    }
+    
+    &__wrapper--end-title-color{
+        color: #78C0DE;
+    }
+    
+    &__wrapper--end-desc{
+        width: 495px;
+        margin-top: 0;
+        margin-bottom: 38px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+    
+    &__wrapper--end-link{
+        padding: 15px 48px;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: $main-text-color;
+        border-radius: 3px;
+        
+    }
+    
+    
+    
+    
+    
+}
+/*-------- HEADER STYLES END --------*/ 
