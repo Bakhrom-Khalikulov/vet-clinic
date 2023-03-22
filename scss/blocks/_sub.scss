@@ -1,0 +1,57 @@
+/*-------- SUB STYLES START --------*/ 
+.sub-section{
+    margin-top: 0;
+    margin-bottom: 151px;
+    background-color: #78C0DE;
+    
+    &__wrapper{
+        margin-top: 90px;
+        margin-bottom: 88px;
+        margin-left: 287px;
+    }
+    
+    &__wrapper-title{
+        margin-top: 0;
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+    &__wrapper-email{
+        margin-right: 21px;
+        padding-top: 18px;
+        padding-right: 147px;
+        padding-bottom: 18px;
+        padding-left: 22px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    &__wrapper-link{
+        padding: 15px 53px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        text-decoration: none;
+        background: #333333;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    
+    
+    
+    
+    
+}
+/*-------- SUB STYLES END --------*/ 
